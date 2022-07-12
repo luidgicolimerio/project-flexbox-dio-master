@@ -29,6 +29,7 @@ header{
     display: flex;
     align-items: center;
     color: #fff;
+    margin: 0;
 }
 header .list-items{
     display:flex;
@@ -95,6 +96,57 @@ header .menu{
     margin-bottom: 10px;
     width: 90%;
 }
-.margin{
-    margin-left: 70px;
+#quem-somos img{
+    min-width: 420px;
+}
+.container-externo{
+    background-color: #122A57;
+    width: 100%;
+}
+
+#servicos{
+    flex-direction: column;
+    padding: 100px 0;
+}
+#servicos h2{
+    color: #FFF;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.list-servicos{
+    display: flex;
+    justify-content: space-between;
+}
+.list-servicos .item-servico{
+    text-align: center;
+}
+.item-servico a{
+    width: 120px;
+    background-color: #FFF;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: #122A57;
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+.item-servico p{
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFF;
+    margin-top: 20px;
+}
+.item-servico img{
+    width: 80%;
+    margin: auto;
+}
+.corr img{
+    width: 60%;
+    line-height: 50px;
+    align-items: center;
 }
